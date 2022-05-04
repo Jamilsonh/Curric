@@ -49,13 +49,14 @@ const Redes = styled.div`
 const Rotas = styled(NavLink)`
     text-decoration: none;
     color: black;
+    opacity: 60%;
     &:hover {
     transition: color 0.15s ease-out 50ms;
-    color: white;
     opacity: 80%;
   }
     &.active {
-    color: red;
+    color: white;
+    opacity: 100%;
   }
 `
 const Profissao = styled.h1`
@@ -67,6 +68,14 @@ const Profissao = styled.h1`
 const ImagesRedes = styled.img`
     &:hover {
       transform: scale(1.2);
+    }
+`
+
+const ImgLink = styled.a`
+    Text-decoration: none;
+    color: white;
+    &:hover {
+    opacity: 70%;
     }
 `
 
@@ -83,9 +92,9 @@ function App() {
           <Profissao>Desenvolvedor Web</Profissao>
         </Component>
         <Redes>
-          <ImagesRedes src={Insta} width="40px" height="30px" />
-          <ImagesRedes src={Linkedin} width="30px" height="30px" />
-          <ImagesRedes src={GitHub} width="40px" height="30px" />
+          <ImgLink href="https://www.instagram.com/jamilson__/" title="Projeto calculador github"><ImagesRedes src={Insta} width="40px" height="30px" /></ImgLink>
+          <ImgLink href="https://www.linkedin.com/in/jamilsonh/" title="Projeto calculador github"><ImagesRedes src={Linkedin} width="30px" height="30px" /></ImgLink>
+          <ImgLink href="https://github.com/Jamilsonh" title="Projeto calculador github"><ImagesRedes src={GitHub} width="40px" height="30px" /></ImgLink>
         </Redes>
         <Escolhas>
           <Navegation>
@@ -93,7 +102,7 @@ function App() {
             <Rotas to="/Tecno">TECNOLOGIAS</Rotas>
           </Navegation>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Projetos />} />
             <Route path="Projetos" element={<Projetos />} />
             <Route path="Tecno" element={<Tecno />} />
           </Routes>

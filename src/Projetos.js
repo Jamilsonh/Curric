@@ -62,22 +62,22 @@ const TituloLink = styled.a`
         <AjustTecno>
             <Submenu>
             <TopoMenu>
-                <TituloProjeto><TituloLink href="https://github.com/Jamilsonh/Pokedex" title="Projeto calculador github">CALCULADORA</TituloLink></TituloProjeto>
+                <TituloProjeto><TituloLink href="https://github.com/Jamilsonh/Pokedex" title="Projeto calculador github">POKEDEX</TituloLink></TituloProjeto>
             </TopoMenu>
             </Submenu>
             <Submenu>
             <TopoMenu>
-                <TituloProjeto><TituloLink to="/Tecno">STAR WARS</TituloLink></TituloProjeto>
+                <TituloProjeto><TituloLink href="https://starwars-react-omega.vercel.app/" title="Projeto calculador github">STAR WARS</TituloLink></TituloProjeto>
             </TopoMenu>
             </Submenu>
             <Submenu>
             <TopoMenu>
-                <TituloProjeto><TituloLink to="/Tecno">FLAPPY BIRD</TituloLink></TituloProjeto>
+                <TituloProjeto><TituloLink href="https://github.com/Jamilsonh/netflixclone" title="Projeto calculador github">NETFLIX CLONE</TituloLink></TituloProjeto>
             </TopoMenu>
             </Submenu>
             <Submenu>
             <TopoMenu>
-                <TituloProjeto><TituloLink to="/Tecno">PONG</TituloLink></TituloProjeto>
+                <TituloProjeto><TituloLink href="https://github.com/Jamilsonh/webSpotify-Clone" title="Projeto calculador github">SPOTIFY CLONE</TituloLink></TituloProjeto>
             </TopoMenu>
             </Submenu>
         </AjustTecno>
