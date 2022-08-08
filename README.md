@@ -1,3 +1,16 @@
+# Site Curriculo
+
+## Descrição 
+<p>Esse projeto foi desenvolvido para ser usado como site curriculo, informar quais tecnologias eu domino e quais os projetos eu já fiz.</p>
+
+### Link do site 
+
+https://curriculo-umber-ten.vercel.app/
+
+<div align="center">Projeto finalizado ✔️</div>
+
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
